@@ -1365,7 +1365,7 @@ function stock_menu() {
 	read -e opt
 	case $opt in
 
-		1)  if [[ "$unlockMenu" = true || "$isEOL" = false && ("$isChromeOS" = true \
+		1)  if [[ "$unlockMenu" = true || ("$isChromeOS" = true \
 					|| "$isFullRom" = false && "$isBootStub" = false && "$isUnsupported" = false) ]]; then
 				flash_rwlegacy
 			fi
