@@ -63,7 +63,7 @@ else
 	return 1
 fi
 
-
+isEOL=false
 preferUSB=false
 useHeadless=false
 if [[ -z "$1" && "$rwlegacy_file" != *"altfw"* ]]; then
